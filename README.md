@@ -5,3 +5,5 @@ Notes - The code from the rust gets compiled to web assembly through `wasm-bindg
 Do `wasm-pack build` inside `game-of-life`, then run `npm run start` inside `www` and all the contents could be visible on `http://localhost:8080/`
 
 This project was mainly done as to get my hands dirty with WASM. All the credit goes to https://rustwasm.github.io/docs/book/introduction.html
+
+To generate the www website use: `cargo generate --git https://github.com/rustwasm/create-wasm-app` as other things are deprecated
